@@ -1,0 +1,36 @@
+h1{
+    color: rgb(233, 17, 17) !important;
+    font-family: 'Style Script', cursive;
+    text-align: center;
+}
+
+html, body{
+    background-color: rgb(150, 187, 241);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(7, 7, 8);
+    text-align: center;
+}
+
+.cuadro1{
+    box-shadow: 10px 12px rgb(47, 47, 48);
+    background-color: seashell;
+    max-width: 300px;
+    overflow: auto;
+    width: auto;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(2, 2, 8) solid;   
+}
+
+#enlace{
+    font-style: strong;
+    font-size: 15px;    
+}

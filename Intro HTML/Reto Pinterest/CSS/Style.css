@@ -1,0 +1,154 @@
+.principal{
+    width: 100%;
+    height: 100%;
+}
+
+#navegacion{
+    height: 30%;
+    width: 100%;
+    margin:0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 1%;
+}
+
+#col-logo{
+    height: 8vh;
+    width: 8vh;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+#Inicio {    
+    color: white;
+    font-size: 16px;   
+    font-weight: 700;
+    background-color: black;
+    border-radius: 10vh;
+    font-size: var(--g-text-font-size-3);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 1vh;
+    height: 7vh;   
+    width: 11vh;
+}
+
+#col-form{
+    padding-top: 1vh;
+}
+
+#formulario{
+    border: none;
+    border-radius: 50vh;
+    background-color: rgb(235, 237, 236);
+    height: 7vh;
+    width: 100%;   
+}
+
+#col-campana{
+    width: auto;
+    padding-top: 0.5%;
+}
+
+#fila-campana{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+ }
+
+.contenedor-imagenes{
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center; 
+    height: 100%;
+    width: 100%;   
+}
+
+.contenedor-imagenes img{
+    border-radius: 3vh;
+    margin: 1%;  
+    padding: 1%;
+    height: 100%;
+    width: 100%; 
+}
+
+.contenedor-imagenes img:hover{
+    border: solid 2px red;
+    height: 130%;
+    width: 130%;
+}
+
+#esquina{
+    width: 0%;
+    height: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.caja{
+    margin: 1%;
+    padding: 1%;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    color:transparent;
+   }
+   
+   @media (max-width: 1100px)
+    {
+        #navegacion{
+            display:grid;
+            height: 30%;
+            width: 80%;
+            grid-template-columns: 100px 100px 450px 300px;
+            /*grid-template-rows: 100px 50px;*/
+            margin-right:1%;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 1%;
+        }
+        
+        #Inicio {    
+            color: white;
+            font-size: 10px;   
+            font-weight: 500;
+            background-color: black;
+            border-radius: 8vh;
+            /*font-size: var(--g-text-font-size-3);*/
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            margin-top: 2vh;
+            height: 6vh;   
+            width: 11vh;
+         }
+    
+        .contenedor-imagenes{
+           justify-content: space-around;
+           align-items: stretch;
+           align-content: center; 
+           height: 100%;
+           width: 100%   
+       }
+       #col-campana{
+           width: 70%;
+           padding-top: 0%;
+           margin:0%;
+        }
+       
+       #fila-campana{
+           /*align-items: center;*/
+           justify-content: center;
+           /*align-content: center;*/
+           width: 70%;
+        }
+        
+       #formulario{
+           border: none;
+           border-radius: 50vh;
+           background-color: rgb(235, 237, 236);
+           height: 7vh;
+           width: 80%   
+       }
+       
+   }
+

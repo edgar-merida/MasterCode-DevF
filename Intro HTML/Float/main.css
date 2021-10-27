@@ -1,0 +1,32 @@
+.caja{
+    width: 100px;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    background-color: salmon;
+    font-size: 18px;
+}
+
+.derecha{
+    float: right;
+    background-color: salmon;
+}
+
+.izquierda{
+    float: left;
+    background-color: seagreen;
+}
+.parrafo{
+    width: 200px;
+    clear: both;
+}
+.section_relativa{
+    width: 100px;
+    height: 200px;
+    background-color: steelblue;
+    position: relative;
+
+
+}
+
+/*https://github.com/Renedev90/master-coding-devf*/
